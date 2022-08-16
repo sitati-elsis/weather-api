@@ -1,0 +1,7 @@
+# do not include these files in the final docker image
+
+*.log
+.git
+*.sqlite3
+.envrc
+__pycache__
